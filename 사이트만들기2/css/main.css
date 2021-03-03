@@ -64,7 +64,7 @@ ul,ol{
     flex: 1;
 }
 #ban>ul>li:nth-child(1){
-    background: #1a281c url(../images/mainCon_bg1.jpg) no-repeat 50%;
+    background: #1a281c url(../images/mainCon_bg1.jpg) no-repeat left 10%;
 }
 #ban>ul>li:nth-child(2){
     background: #888 url(../images/mainCon_bg2.jpg) no-repeat 50%;
@@ -161,6 +161,7 @@ ul,ol{
     margin-top: 30px;
     margin-bottom: 15px;
 }
+/*글자 사이 작대기*/
 .address p::after{
     content: '';
     display: inline-block;
@@ -168,7 +169,11 @@ ul,ol{
     height: 10px;
     background: #4a4c50;
     margin: 0 10px 0 10px;
-    
+}
+/*마지막 작대기 없애기*/
+.address p:last-child::after{
+    content: "";
+    background: none;
 }
 /*패밀리사이트 박스*/
 .family{
