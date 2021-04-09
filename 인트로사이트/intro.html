@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>JiHoon Intro Site</title>
+    
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        /*배경이미지*/
+        body {
+            background: url(images/bg.jpg) no-repeat center/cover;
+            overflow: hidden;
+        }
+
+        /*전체박스*/
+        .wrap {
+            width: 100vw;
+            height: 100vh;
+            box-sizing: border-box;
+
+        }
+        
+
+        /*제목*/
+        .tit {
+            font-size: 50px;
+            font-family: cursive;
+            color: #fff;
+            text-align: center;
+            margin-top: 20px;
+            padding: 20px;
+            text-shadow: 3px 5px 5px #000;
+            border-bottom: 5px ridge #fff;
+        }
+
+        .cont{
+            position: relative;
+            top: 25%;
+        }
+        
+        /*각박스 공통*/
+        .cont>div {
+            width: 50%;
+            float: left;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        /*각박스 타이틀*/
+        .cont>div>a {
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            font-size: 25px;
+            width: 50%;
+            margin: 0 auto;
+            padding: 10px;
+            background-color: skyblue;
+            color: #fff;
+            text-shadow: 2px 3px 3px #000;
+            border-radius: 15px;
+        }
+        .cont>div>a:hover{
+            font-weight: bold;
+        }
+
+        /*좌측박스*/
+        .lb {
+            border-right: 5px ridge #fff;
+        }
+    </style>
+    
+</head>
+
+<body>
+    <!--전체부모박스-->
+    <div class="wrap">
+        <h1 class="tit">Intro Site</h1>
+        <div class="cont">
+            <!--왼쪽 프로젝트박스-->
+            <div class="lb">
+                <a href="../사이트만들기/site.html" target="_blank">1차 포트폴리오</a>
+            </div>
+
+
+            <!--오른쪽 프로젝트 박스-->
+            <div class="rb">
+                <a href="../사이트만들기2/Portfolio2.html" target="_blank">2차 포트폴리오</a>
+            </div>
+        </div>
+    </div>
+</body></html>

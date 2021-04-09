@@ -36,6 +36,13 @@ $(function(){///// jQB /////////////////
         
     });//////// click //////////////
     
+    //// 서브페이지에서 닫기버튼 클릭시 //////
+    $(".cbtn").click(function(){
+
+        location.href = "Portfolio2.html";
+
+    }); ////////// click /////////////
+    
     
 
 
