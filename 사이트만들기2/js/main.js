@@ -15,7 +15,7 @@ $(function(){///// jQB /////////////////
         left: "0",
         width: "100%",
         height: "100%",
-        background: "url(images/mainCon_bg2.jpg) no-repeat 50% 50%",
+        background: "url(images/mainCon_bg2.jpg) no-repeat 50%/cover",
         zIndex: "9999999"
     }) ////////// css ////////////
     .append('<div class="icvtxt"><span></span><span></span></div>')
@@ -124,7 +124,7 @@ $(function(){///// jQB /////////////////
     //// 배너 클릭시 서브페이지 애니메이션하면서 보이기 ///
     $("#ban>ul>li").first().click(function(){
 
-        location.href = "subpage_sub.html";
+        location.href = "subpage.html";
 
     }); /////////// click //////////////////
     
